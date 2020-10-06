@@ -5,7 +5,7 @@ import SEO from '../components/SEO';
 // import styled from 'styled-components';
 
 export default function SlicemasterPage({ data: { person } }) {
-  console.log(person);
+  // console.log(person);
   return (
     <>
       <SEO title={person.name} image={person.image.asset.src} />

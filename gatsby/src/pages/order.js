@@ -18,7 +18,7 @@ export default function OrderPage({ data }) {
     email: '',
     mapleSyrup: '',
   });
-  console.log(values, updateValues);
+  // console.log(values, updateValues);
   //  "OLD CODE" const [name, setName] = useState('');
   const pizzas = data.pizzas.nodes;
   const {

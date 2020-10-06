@@ -11,7 +11,7 @@ const PizzaGrid = styled.div`
 `;
 
 export default function SinglePizzaPage({ data: { pizza } }) {
-  console.log(pizza);
+  // console.log(pizza);
   return (
     <>
       {/* Question mark ensures that each node or asset exists before chaining and rendering the value */}
