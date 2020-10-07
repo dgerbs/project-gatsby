@@ -17,10 +17,17 @@ const MenuItemStyles = styled.div`
   }
   button {
     font-size: 1.5rem;
+    @media (max-width: 485px) {
+      margin: 0 1rem 1rem 0;
+    }
   }
 
   button + button {
     margin-left: 1rem;
+    @media (max-width: 485px) {
+        margin-left: 0;
+      }
+    }
   }
 
   .remove {
@@ -32,6 +39,10 @@ const MenuItemStyles = styled.div`
     right: 0;
     box-shadow: none;
     line-height: 1rem;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 1.4rem;
   }
 `;
 
